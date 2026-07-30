@@ -1183,6 +1183,31 @@ img{
     -webkit-user-drag:none;
     user-drag:none;
 }
+/* ===== FULL CAPITAL LETTERS ===== */
+
+body{
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-variant: normal;
+    font-variant-caps: normal;
+    font-feature-settings: "smcp" 0, "c2sc" 0;
+}
+
+h1,h2,h3,h4,h5,h6,
+th,
+.page-title,
+.section-title,
+.info-block h3,
+table th{
+    text-transform: uppercase;
+    font-variant: normal;
+    font-variant-caps: normal;
+    font-feature-settings: "smcp" 0, "c2sc" 0;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+body *{
+    text-transform: uppercase !important;
+}
     </style>
 </head>
 <body>
@@ -1220,6 +1245,7 @@ img{
         <button class="active" onclick="switchView('home-view', this)">HOME</button>
         <button onclick="switchView('about-view', this)">ABOUT US</button>
         <button onclick="switchView('classix-view', this)">SYLLABUS & CURRICULUM</button>
+        <button onclick="switchView('marks-view', this)">MARKS DISTRIBUTION</button>
         <button onclick="switchView('resource-view', this)">RESOURCES AND REGULATIONS</button>
         <button onclick="switchView('pyqp-view', this)">PREVIOUS YEARS PAPERS (PYQ's)</button>
         <button onclick="switchView('qp2027-view', this)">(2027) ACADEMIC QUESTION PAPERS</button>
@@ -1816,6 +1842,200 @@ SAVE LAST UPDATED TIMELINE
 
         </div>
     </div>
+    
+    <!-- ===========================            
+     VIEW : OFFICIAL MARKS DISTRIBUTION & REGULATORY FRAMEWORK            
+=========================== -->      
+<div id="marks-view" class="page-view">      
+    <div class="static-content">      
+        <div style="            
+            background:linear-gradient(180deg,
+#ffffff 0%,
+#f0fdf4 12%,
+#dcfce7 26%,
+#dbeafe 42%,
+#ede9fe 58%,
+#fef3c7 74%,
+#fee2e2 88%,
+#ffffff 100%);
+            padding:40px;            
+            border-radius:18px;            
+            color:#064e3b;            
+            text-align:center;            
+            box-shadow:0 12px 35px rgba(0,0,0,.18);            
+            margin-bottom:30px;            
+        ">      
+            <h2 style="margin:0;font-size:40px;letter-spacing:1px;text-transform:uppercase;">            
+                COUNCIL FOR THE INDIAN SCHOOL CERTIFICATE EXAMINATIONS            
+            </h2>      
+            <p style="font-size:30px;margin-top:10px;line-height:1.6;opacity:0.95;font-weight:500;">            
+CLASS – IX COMPREHENSIVE BLUEPRINT SCHEME OF EXAMINATION. [ACADEMIC YEAR – (2027) REVISED FRAMEWORK] 
+            </p>      
+        </div>      
+
+        <div class="info-block" style="background:linear-gradient(180deg,
+#ffffff 0%,
+#f8fffb 40%,
+#f0fdf4 100%);; padding:28px; border-radius:16px; box-shadow:0 4px 20px rgba(0,0,0,.06); margin-bottom:30px; border:1px solid #e2e8f0;">      
+            <h3 style="margin-top:0;color:#065f46;font-size:40px;letter-spacing:0.5px;">            
+                I. PREAMBLE, STATUTORY AUTHORITY, & REGULATORY EVALUATION MANDATE            
+            </h3>      
+            <p style="font-size:20px;line-height:1.9;color:#334155;text-align:justify;">      
+                Pursuant to the comprehensive educational statutes, directives, and administrative regulations promulgated by the Council for the Indian School Certificate Examinations (CISCE), New Delhi, the formal assessment paradigm for Class IX candidates is structurally formulated to rigorously evaluate intellectual aptitude, cognitive proficiency, practical experimentation capabilities, and continuous scholastic development. Every registered curricular discipline carries a uniform maximum aggregate valuation of exactly <b>100 Marks</b>. The holistic evaluation architecture bifurcates systematically into external terminal examinations and internal formative assessments, governed strictly by the foundational syllabi, curriculum specifications, and pedagogical directives established under the 2027 structural framework.      
+            </p>      
+        </div>      
+
+        <div style="overflow-x:auto; margin-bottom:30px;">
+<table style="            
+width:100%;            
+border-collapse:collapse;            
+font-size:30px;            
+background:linear-gradient(180deg,#ffffff 0%,#f8fffc 100%);
+border-radius:15px;            
+overflow:hidden;            
+box-shadow:0 8px 28px rgba(0,0,0,.12);            
+">
+<thead>
+<tr style="            
+background:linear-gradient(135deg,#064e3b,#059669);            
+color:white;            
+position:sticky;            
+top:0;            
+">
+<th style="padding:22px 15px;text-align:center;font-weight:600;">SERIAL NUMBER</th>
+<th style="padding:22px 140px;text-align:center;font-weight:600;">NAME OF THE SUBJECT</th>
+<th style="padding:22px 25px;text-align:center;font-weight:600;">THEORY MARKS</th>
+<th style="padding:22px 25px;text-align:center;font-weight:600;">INTERNAL ASSESSMENT MARKS</th>
+<th style="padding:22px 25px;text-align:center;font-weight:600;">TOTAL AGGREGATE MARKS</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background:linear-gradient(90deg,#f0fdf4 0%,#ecfeff 100%); border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>1</b></td>
+<td align="center" style="padding:18px;"><b>English Language (Paper – 1)</b></td>
+<td align="center">80M</td>
+<td align="center">20M</td>
+<td align="center"><b>100M</b></td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>2</b></td>
+<td align="center" style="padding:18px;"><b>English Literature (Paper – 2)</b></td>
+<td align="center">80M</td>
+<td align="center">20M</td>
+<td align="center"><b>100M</b></td>
+</tr>
+<tr style="background:linear-gradient(90deg,#f0fdf4 0%,#ecfeff 100%); border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>3</b></td>
+<td align="center" style="padding:18px;"><b>Second Language – (Hindi)</b></td>
+<td align="center">80M</td>
+<td align="center">20M</td>
+<td align="center"><b>100M</b></td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>4</b></td>
+<td align="center" style="padding:18px;"><b>Second Language – (Telugu)</b></td>
+<td align="center">80M</td>
+<td align="center">20M</td>
+<td align="center"><b>100M</b></td>
+</tr>
+<tr style="background:linear-gradient(90deg,#f0fdf4 0%,#ecfeff 100%); border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>5</b></td>
+<td align="center" style="padding:18px;"><b>Mathematics</b></td>
+<td align="center">80M</td>
+<td align="center">20M</td>
+<td align="center"><b>100M</b></td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>6</b></td>
+<td align="center" style="padding:18px;"><b>Physics (Science Paper – 1)</b></td>
+<td align="center">80M</td>
+<td align="center">20M</td>
+<td align="center"><b>100M</b></td>
+</tr>
+<tr style="background:linear-gradient(90deg,#f0fdf4 0%,#ecfeff 100%); border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>7</b></td>
+<td align="center" style="padding:18px;"><b>Chemistry (Science Paper – 2)</b></td>
+<td align="center">80M</td>
+<td align="center">20M</td>
+<td align="center"><b>100M</b></td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>8</b></td>
+<td align="center" style="padding:18px;"><b>Biology (Science Paper – 3)</b></td>
+<td align="center">80M</td>
+<td align="center">20M</td>
+<td align="center"><b>100M</b></td>
+</tr>
+<tr style="background:linear-gradient(90deg,#f0fdf4 0%,#ecfeff 100%); border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>9</b></td>
+<td align="center" style="padding:18px;"><b>History & Civics (HCG Paper – 1)</b></td>
+<td align="center">80M</td>
+<td align="center">20M</td>
+<td align="center"><b>100M</b></td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>10</b></td>
+<td align="center" style="padding:18px;"><b>Geography (HCG Paper – 2)</b></td>
+<td align="center">80M</td>
+<td align="center">20M</td>
+<td align="center"><b>100M</b></td>
+</tr>
+<tr style="background:linear-gradient(90deg,#f0fdf4 0%,#ecfeff 100%); border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>11</b></td>
+<td align="center" style="padding:18px;"><b>Computer Applications</b></td>
+<td align="center">100M</td>
+<td align="center">100M</td>
+<td align="center"><b>100M</b></td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>12</b></td>
+<td align="center" style="padding:18px;"><b>Computer Science</b></td>
+<td align="center">100M</td>
+<td align="center">–N–</td>
+<td align="center"><b>100M</b></td>
+</tr>
+<tr style="background:linear-gradient(90deg,#f0fdf4 0%,#ecfeff 100%); border-bottom:1px solid #e2e8f0;">
+<td align="center" style="padding:18px;"><b>13</b></td>
+<td align="center" style="padding:18px;"><b>Commercial Applications</b></td>
+<td align="center">100M</td>
+<td align="center">100M</td>
+<td align="center"><b>100M</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+        <div style="            
+            padding:28px;            
+            background:linear-gradient(180deg,
+#ffffff 0%,
+#f8fafc 30%,
+#f0fdf4 70%,
+#ecfeff 100%);            
+            border-left:7px solid #059669;            
+            border-radius:14px;            
+            box-shadow:0 4px 15px rgba(0,0,0,.03);
+            border:1px solid #e2e8f0;
+            margin-bottom:30px;
+        ">      
+            <h3 style="margin-top:0;color:#065f46;font-size:40px;letter-spacing:0.5px;">            
+                II. STATUTORY INSTRUCTIONS, PROTOCOLS, & MANDATORY GUIDELINES            
+            </h3>      
+            <ul style="line-height:2.2;font-size:20px;color:#334155;margin-bottom:0;padding-left:20px;">      
+                <li><b>Aggregate Uniformity Mandate:</b> The cumulative evaluation maximum for each of the thirteen registered subject disciplines stands strictly unalterable at an aggregate total of exactly <b>100 Marks</b>, non-negotiable across all affiliated educational institutions.</li>      
+                <li><b>External Examination Parameters:</b> Conventional theoretical and humanities disciplines are subjected to an external board-pattern terminal examination weighted at <b>80 Marks</b>, whereas professional/technical electives such as Computer Applications and Computer Science incorporate integrated practical evaluation methodologies scaled up directly to <b>100 Marks</b>.</li>      
+                <li><b>Formative Internal Allocation Protocols:</b> The designated <b>20 Marks</b> component assigned to core and elective subjects must be distributed explicitly across continuous internal evaluations, certified laboratory journals, structured project portfolios, viva-voce interactions, or oral-aural performance metrics as strictly prescribed by the Council.</li>      
+                <li><b>Institutional Compliance & Record Integrity:</b> Affiliated educational institutions and designated institutional heads are statutorily bound to execute, record, audit, and preserve internal assessments with absolute transparency and integrity, adhering strictly to timeline schedules, evaluation rubrics, and reporting protocols published by the CISCE board administration.</li>      
+                <li><b>Curricular Reference & Specimen Directives:</b> Candidates, subject educators, and academic coordinators are strongly advised to cross-reference specific assessment criteria, practical project guidelines, structural parameters, and sub-topic weightages through official syllabi, circulars, and specimen question papers issued directly by the Council.</li>      
+                <li><b>Mandatory Promotion & Attendance Thresholds:</b> In alignment with the comprehensive regulatory framework, candidates must secure a minimum passing grade across all specified components and satisfy institutional attendance requirements to qualify for academic promotion to subsequent grade levels.</li>      
+            </ul>      
+        </div>      
+    </div>      
+</div>
+
+
+
+
 
     <!-- VIEW 4: RESOURCES -->
     <div id="resource-view" class="page-view">
