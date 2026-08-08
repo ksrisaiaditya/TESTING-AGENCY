@@ -3933,20 +3933,22 @@ if (lastUpdated) {
 
     alert("PORTAL LAST UPDATED CHANGED SUCCESSFULLY.");
 }
-window.addEventListener("load", function() {
-    const value = localStorage.getItem("portalLastUpdated");
-    const lastUpdated = document.getElementById("portalLastUpdated");
+window.addEventListener("load",function(){
 
-    if (lastUpdated) {
-        if (value) {
-            lastUpdated.innerText = value;
-        } else {
-            // Universal default timestamp displayed to all users if no admin override is saved
-            const defaultGlobalTime = "AUGUST 8, 2026 AT 12:00:00 A.M. (IST) 🌐";
-            lastUpdated.innerText = defaultGlobalTime;
-        }
+    const value=localStorage.getItem("portalLastUpdated");
+
+    if(value){
+
+        const lastUpdated = document.getElementById("portalLastUpdated");
+
+if (lastUpdated) {
+    lastUpdated.innerText = value;
+}
+
     }
+
 });
+
 
 checkMaintenanceMode();
 
